@@ -1,0 +1,17 @@
+
+/* Weekbar */
+.weekbar_anchor {
+    width: 70%;
+}
+
+.weekbar_box {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Weekday */
+.weekday {
+    height: 150px;
+    width: 300px;
+    border: 1px solid black;
+}

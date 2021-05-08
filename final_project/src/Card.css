@@ -1,0 +1,64 @@
+.card {
+    position: relative;
+    display: flex;
+    height: 125px;
+    width: 84px;
+    min-width: 84px;
+    border: 2px solid white;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow:0 0 10px #aaaaaa;
+    z-index: 0;
+}
+
+.flipped {
+    background-color: black;
+    color: yellow;
+}
+
+.inner {
+    position: absolute;
+    height: 110px;
+    width: 80px;
+    background-color: white;
+    border-radius: 50%;
+    transform: rotate(18deg);
+    z-index: 1;
+}
+
+.uno_text {
+    transform: rotate(-60deg);
+    font-size: 20px;
+}
+
+.value {
+    z-index: 2;
+}
+
+.smaller {
+    font-size: 30px;
+}
+
+.red {
+    background-color: rgb(184, 43, 43);
+}
+
+.blue {
+    background-color: rgb(48, 48, 167);
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.black {
+    background-color: black;
+}
+

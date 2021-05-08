@@ -1,0 +1,12 @@
+.slateEditor {
+    padding: 10px;
+}
+
+.normal_text {
+    margin: 0;
+    padding: 0;
+}
+
+.event_text {
+    background-color: lightgray;
+}

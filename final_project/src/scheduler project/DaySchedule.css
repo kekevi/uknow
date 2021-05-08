@@ -1,0 +1,33 @@
+.schedule_anchor {
+    display: flex;
+}
+
+.schedule_column {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.eventblock {
+    position: absolute;
+    margin: 0;
+}
+
+.eventblock_title {
+    margin: 0;
+}
+
+.lineNumberPair {
+    padding: 0;
+    margin: 0;
+}
+
+.lineNumberPair_horizontal {
+    padding: 0;
+    margin: 0;
+}
+
+.lineNumberPair_time {
+    padding: 0;
+    margin: 0;
+}

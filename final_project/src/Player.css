@@ -1,0 +1,21 @@
+.avatar {
+    height: 50px;
+    width: 50px;
+}
+
+.player_profile {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin: 5px;
+    border: 2px dotted gray;
+    border-radius: 5px;
+    background-color: azure;
+}
+
+.stats {
+    padding: 0;
+    margin: 0;
+    height: 13px;
+    font-size: 13px;
+}

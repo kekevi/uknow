@@ -1,0 +1,248 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  }
+  
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+  
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+  
+/*
+  Actual
+*/
+  
+::-webkit-scrollbar {
+  height: 3px;
+  width: 3px;
+  background-color: lightgray;
+}
+  
+::-webkit-scrollbar-thumb {
+  background-color: darkgray;
+}
+  
+.App {
+  text-align: center;
+}
+
+.headbar {
+  background-color: lightblue;
+}
+
+.tailbar {
+  flex-direction: column;
+  text-align: center;
+}
+
+.tailbar + p {
+  margin-top: 20px;
+}
+
+.scrollbar {
+  overflow-y: auto;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 3px;
+  background-color: lightgray;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: darkgray;
+}
+
+body {
+  height: 100%;
+  background-color: lightblue;
+}
+
+/*
+  Login Page
+*/
+
+.login {
+  position: absolute;
+  background-color: rgb(161, 26, 21);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+.center {
+  height: 500px;
+  width: 500px;
+  margin-bottom: 100px;
+  background-color: white;
+  border-radius: 30px;
+}
+  
+.logo {
+  margin: 20px;
+}
+  
+.login_desc {
+  padding: 0 20px;
+}
+  
+.login_input {
+  margin: 10px;
+}
+  
+.login_buttons {
+  width: 250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+  
+/*
+  Configuration Page
+*/
+
+.create_join_split {
+  margin: 10px 50px;
+}
+
+/*
+  Buttons
+*/
+
+.button_action {
+height: 30px;
+}
+
+.button_refresh {
+  height: 50px;
+  width: 80px;
+  margin: 10px;
+}
+
+/*
+  Player List
+*/
+.playerlist {
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.playerlist_list {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+
+
+/*
+  Game Layout
+*/
+
+.game {
+  background-color: azure;
+}
+
+.rows {
+  display: flex;
+  flex-direction: column;
+}
+
+.row_center {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row_side {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+}
+
+.game_center {
+  display: flex;
+  flex-direction: row;
+}
+
+.game_error {
+  color: red;
+  border: 2px dotted gray;
+}
+
+.individual_options {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 84px; /* same as card dimensions */
+  height: 125px;
+}
+
+/*
+  Deck Component
+*/
+
+.deck {
+  position: relative;
+  height: 160px;
+}
+
+.deck_tooltip { /* of container */
+  position: absolute;
+  display: inline-block;
+  height: 160px;
+  width: 100px;
+  left: 0;
+  z-index: 20;
+  top: -0px;
+}
+
+.deck_tooltip .deck_tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: lightblue;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  top: 140px;
+}
+
+.deck_tooltip:hover .deck_tooltiptext {
+  visibility: visible;
+}
+
+.minortext {
+  color: gray;
+  font-style: italic;
+}
+
+.deck_card {
+  position: absolute;
+  top: 20px;
+}
+
+.deck_card_higher {
+  position: absolute;
+  top: -120px;
+}
+
+.deck_card_highest {
+  position: absolute;
+  top: -258px;
+}
