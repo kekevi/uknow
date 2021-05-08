@@ -4,10 +4,11 @@ import Hand from './Hand.js';
 import Player from './Player.js';
 import Card from './Card.js';
 import './Game.css';
+import * as CONSTANTS from './constants.js';
 
-const DOMAIN_NAME = "http://localhost:3001";
-const HTTP_TIMEOUT = 3000
-const CORS_SITE = "http://localhost"
+const DOMAIN_NAME = CONSTANTS.DOMAIN_NAME;
+const HTTP_TIMEOUT = CONSTANTS.HTTP_TIMEOUT;
+const CORS_SITE = CONSTANTS.CORS_SITE;
 
 function Game (props) {
     const [message, setMessage] = useState("");

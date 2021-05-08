@@ -6,10 +6,11 @@ import {UnoGame} from './engine/uno.js';
 import Player from './Player.js';
 import './Card.css';
 import Game from './Game.js';
+import * as CONSTANTS from './constants.js';
 
-const DOMAIN_NAME = "http://localhost:3001";
-const HTTP_TIMEOUT = 3000
-const CORS_SITE = "http://localhost"
+const DOMAIN_NAME = CONSTANTS.DOMAIN_NAME;
+const HTTP_TIMEOUT = CONSTANTS.HTTP_TIMEOUT;
+const CORS_SITE = CONSTANTS.CORS_SITE;
 
 
 function App() {

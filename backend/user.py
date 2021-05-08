@@ -6,8 +6,7 @@ from hashlib import sha256
 import secrets
 import time
 
-DEFAULT_THEME = "white"
-EMPTY_DAY_DATA = '''[{"type":"paragraph","children":[{"text":""}]}]'''
+DEFAULT_THEME = "light"
 
 ## ORM for User authorization and data retrieval. 
 
